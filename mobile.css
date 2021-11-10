@@ -1,0 +1,221 @@
+/* .body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: 0;
+}
+.nav_collection {
+  background-color: #123451;
+  display: flex;
+  color: aliceblue;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.right_nav_item > a {
+  color: blueviolet;
+  display: block;
+  margin-top: 5px;
+}
+.right_nav_item {
+  margin-left: 150px;
+  text-align: center;
+}
+
+@media (min-width: 524px) {
+  .nav_collection {
+    background-color: #123451;
+    display: flex;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  .right_nav_item > a {
+    color: azure;
+    display: block;
+    margin-top: 5px;
+  }
+  .right_nav_item {
+    margin-left: 400px;
+    text-align: center;
+    margin: auto;
+  }
+  .left_nav_item > img {
+    margin-left: 40px;
+  }
+  .operation_btn {
+    height: 30px;
+    background-color: black;
+    width: 150px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 26px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .operation_container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    display: flex;
+  }
+  .operations_content_container {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 150px;
+    padding-right: 150px;
+  }
+c
+  .service_sec {
+    background-color: #f7f8f8;
+    padding: 20px 30px;
+  }
+
+  .service_sec > h1 {
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+    color: red;
+  }
+
+  .orange {
+    color: black;
+  }
+  .main_div_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 20px 30px;
+  }
+
+  .Service_container {
+    background-color: chocolate;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  .footer_collection {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px auto;
+    overflow-x: hidden;
+    background-color: #123451;
+    color: blue;
+  }
+  .left_footer_item {
+    display: flex;
+    margin-left: 80px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .left_item > img {
+    width: 60px;
+    height: 50px;
+    margin-right: 40px;
+  }
+  .right_footer_item > img {
+    text-align: center; */
+/* } */
+@media (min-width: 600px) {
+  .nav_collection {
+    background-color: #123451;
+    display: flex;
+    color: aliceblue;
+    padding-left: 40px;
+  }
+}
+.right_nav_item > a {
+  color: black;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  padding: 1rem;
+  padding-left: 30px;
+  border-right: 2px solid black;
+  text-decoration: none;
+}
+.left_nav_item {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.left_nav_item > img {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.right_nav_item {
+  margin-right: 30px;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+}
+.right_nav_item > :last-child {
+  border: none;
+}
+.operation_btn {
+  height: 40px;
+  width: 200px;
+  font-size: large;
+  border: none;
+  margin-right: 20px;
+  border-radius: 26px;
+  background-color: black;
+  color: beige;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.operation_container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.operations_content_container {
+  background-color: brown;
+  display: flex;
+  padding: 20px 10px;
+
+  /* padding-right: 150px; */
+}
+.operation_content {
+  background-color: white;
+  margin-right: 10px;
+  font-size: 15px;
+  font-family: cursive;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.service_sec {
+  background-color: red;
+  padding: 5px 10px;
+}
+
+.service_sec > h1 {
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: underline;
+  font-size: 35px;
+  /* display: flex; */
+}
+.main_div_container {
+  display: flex;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.Service_container {
+  background-color: salmon;
+  border-radius: 20px;
+  margin-right: 15px;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 30px;
+}
